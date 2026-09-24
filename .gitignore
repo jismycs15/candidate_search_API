@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Local environment config (API base URL, etc.) — never commit real .env files
+.env
+.env.*
+!.env.example
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
